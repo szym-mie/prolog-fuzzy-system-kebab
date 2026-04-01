@@ -16,7 +16,7 @@ Estimate the quality and other parameters of the kebab, based on some input quan
 |  `spicy`  | actual spicyness, compared to expected      | $[-1.0,1.0]$  |
 |  `t_fry`  | fry time (min)                              |  $[0.0,5.0]$  |
 
-The ratio of meat mass to the total mass can be derived as such: `r_meat = 1.0 - r_salad`. Total mass is not explicitely given or needed for the purposes of the system.
+The ratio of meat mass to the total mass can be derived as a negation of `r_salad` parameter. Total mass is not explicitely given or needed for the purposes of the system.
 
 #### 2.2. Output parameters
 
