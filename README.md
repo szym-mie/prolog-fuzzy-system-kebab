@@ -179,9 +179,12 @@ t_fry          ok     burn
 | `p_leak_high2` | `r_sauce=ok & shape=wide`                          | .             | -              |
 
 _(1)_ burnt bread negates all possible positive qualities of the kebab
+
 _(2)_ just-meat kebab is not at all that tasty
+
 _(3)_ to offset the added amount of water in the salad - presumably causing the kebab to heat up slower
-_(4)_ please be aware that the weight scaling might not be a standard practice and was the quick and easy solution by the author to handle special cases
+
+_(4)_ please be aware that the weight scaling of individual rules might not be considered a standard practice and was the quick and easy solution by the author to handle special cases
 
 ## 6. Examples
 
@@ -239,7 +242,7 @@ Dry, spicy, very meaty dumpling and to top that - raw.
 |  `t_eat`  | `0.75`  | -           |
 | `p_leak`  |  `0.1`  | -           |
 
-#### 6.4. Ostry, przysmażony
+#### 6.4. Spicy, fried
 
 ###### Query
 
