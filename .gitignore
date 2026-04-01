@@ -1,0 +1,6 @@
+# Ciao objects
+**/*.itf
+**/*.po
+# Emacs backups + autosaves
+**/*~
+**/#*#
