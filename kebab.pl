@@ -49,8 +49,8 @@ lin2([A,B,C],X,Y,V) :- lin3([A,B,0,C],X,Y,0,V).
 lin1([A,B],X,V) :- lin3([A,0,0,B],X,0,0,V).
 
 % defp - weighted average
-wa_([],[],_,0,0) :- !.
-wa_([],[],T,B,V) :- V is T/B,!.
+wa_([],[],_,0,0).
+wa_([],[],T,B,V) :- V is T/B.
 wa_([W|Ws],[Z|Zs],T,B,V) :-
     T1 is T+W*Z,
     B1 is B+W,
